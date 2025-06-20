@@ -7,13 +7,12 @@ $primary: rgb(133, 133, 239);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-:root {
-  --primary-color: #4285f4;
-  --secondary-color: #e0e0e0;
-  --dark-color: #090a0a;
-  --accent-color: #f44336;
+
+#logo {
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
 }
-//.logo-navbar {width: 140px;height: auto;}
 
 // Carousel image styling
 .carousel-item img {
@@ -25,6 +24,7 @@ $primary: rgb(133, 133, 239);
     height: 250px;
   }
 }
+
 .carousel-caption {
   background: rgba(0, 0, 0, 0.5);
   padding: 1rem;
@@ -36,6 +36,7 @@ $primary: rgb(133, 133, 239);
   background-color: #fff;
   margin-top: 2%;
 }
+
 .card-text {
   font-size: 0.95rem;
   color: #555;
@@ -49,6 +50,7 @@ $primary: rgb(133, 133, 239);
     height: 150px;
   }
 }
+
 .card:hover {
   transform: translateY(-5px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -87,7 +89,7 @@ $primary: rgb(133, 133, 239);
   padding: 2rem 1rem;
   background-color: #f4f8fb; // light background for contrast
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 
   h2 {
     font-size: 1.8rem;
@@ -120,10 +122,10 @@ $primary: rgb(133, 133, 239);
   background-color: #f9f9f9;
 }
 
-#Contact-form{
-  margin-right: 5%;
-  margin-left: 5%;
+#Contact_form{
+  margin:auto;
   padding: 1%;
+  
 }
 
 .contact-title {
@@ -172,6 +174,7 @@ textarea.form-control {
 
 #about-us {
   background-color: #090a0a;
+  margin-bottom: 15px;
 }
 
 #icons {
